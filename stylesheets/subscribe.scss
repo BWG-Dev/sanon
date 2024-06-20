@@ -1,0 +1,91 @@
+.subscribe {
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+
+    .row-subscribe {
+        .image-col {
+            .image-holder {
+                img {}
+            }
+        }
+
+        .paragraph-col {
+            .title-area {
+                h3 {
+                    font-size: 35px;
+                    padding-bottom: 1rem;
+                }
+            }
+
+            .main-form {
+                p {
+                    font-weight: 400;
+                }
+            }
+
+            .form {
+                .gform_wrapper {
+                    form {
+                        .gform_body {
+                            ul {
+                                li {
+                                    label {
+                                        display: none;
+
+                                        span {}
+                                    }
+
+                                    .ginput_container {
+                                        input {
+                                            border: 1px solid rgb(238, 238, 238);
+                                            font-size: 15px;
+                                            padding: 1rem;
+                                            font-family: "Lato",
+                                                sans-serif;
+                                            color: #727272;
+                                            font-weight: regular;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .gform_footer {
+                            padding: 0;
+                            padding-top: 1.5rem;
+                            margin: 0;
+
+                            input {
+                                color: #fff;
+                                background-color: #0069d9;
+                                border-color: #0062cc;
+                                background-image: linear-gradient(to right, #3d71a2, #0c2667);
+                                padding: 0.7rem 1rem 0.7rem 1rem;
+                                border-radius: 2rem;
+                                font-family: "Montserrat",
+                                    sans-serif;
+                                text-transform: uppercase;
+
+                                strong {
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                    text-transform: uppercase;
+                                }
+                            }
+
+                            input:hover {
+
+                                color: #fff;
+                                background-color: #0c2667 !important;
+                                background-image: linear-gradient(to right, #0c2667, #0c2667) !important;
+                                text-decoration: none !important;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

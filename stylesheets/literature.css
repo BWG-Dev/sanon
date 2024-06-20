@@ -1,0 +1,29 @@
+.literature .row {
+  padding-bottom: 3rem; }
+  .literature .row .col-literature .hr {
+    width: 4rem;
+    text-align: left;
+    display: inline-block;
+    height: 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1); }
+  .literature .row .col-literature .line hr {
+    width: 4rem;
+    text-align: left;
+    display: inline-block;
+    height: 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1); }
+  .literature .row .col-literature .gradient-primary {
+    padding-top: 2rem; }
+    .literature .row .col-literature .gradient-primary h2 {
+      font-size: 22px; }
+  .literature .row .col-literature .hr {
+    width: 4rem;
+    text-align: left;
+    display: inline-block;
+    height: 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1); }
+  .literature .row .col-literature .font-secondary p {
+    font-size: 15px;
+    font-weight: 400; }
+
+/*# sourceMappingURL=literature.css.map */

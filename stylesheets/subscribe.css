@@ -1,0 +1,41 @@
+.subscribe {
+  padding-bottom: 4rem;
+  padding-top: 3rem; }
+  .subscribe .row-subscribe .paragraph-col .title-area h3 {
+    font-size: 35px;
+    padding-bottom: 1rem; }
+  .subscribe .row-subscribe .paragraph-col .main-form p {
+    font-weight: 400; }
+  .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_body ul li label {
+    display: none; }
+  .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_body ul li .ginput_container input {
+    border: 1px solid #eeeeee;
+    font-size: 15px;
+    padding: 1rem;
+    font-family: "Lato", sans-serif;
+    color: #727272;
+    font-weight: regular; }
+  .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_footer {
+    padding: 0;
+    padding-top: 1.5rem;
+    margin: 0; }
+    .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_footer input {
+      color: #fff;
+      background-color: #0069d9;
+      border-color: #0062cc;
+      background-image: linear-gradient(to right, #3d71a2, #0c2667);
+      padding: 0.7rem 1rem 0.7rem 1rem;
+      border-radius: 2rem;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase; }
+      .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_footer input strong {
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+    .subscribe .row-subscribe .paragraph-col .form .gform_wrapper form .gform_footer input:hover {
+      color: #fff;
+      background-color: #0c2667 !important;
+      background-image: linear-gradient(to right, #0c2667, #0c2667) !important;
+      text-decoration: none !important; }
+
+/*# sourceMappingURL=subscribe.css.map */

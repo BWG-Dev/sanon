@@ -1,0 +1,129 @@
+.woocommerce {
+  font-family: "Lato", sans-serif; }
+  .woocommerce .woocommerce-info {
+    border-top-color: #0c2667; }
+  .woocommerce a {
+    color: #0c2667; }
+  .woocommerce .button.button.alt {
+    background-color: #435e9a !important;
+    padding: 0.7rem 1rem 0.7rem 1rem !important; }
+  .woocommerce .button.button.alt:hover {
+    background-color: #0c2667 !important;
+    padding: 0.7rem 1rem 0.7rem 1rem !important; }
+  .woocommerce p {
+    color: #727272; }
+  .woocommerce .woocommerce-form-coupon-toggle .woocommerce-info {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #727272;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word; }
+    .woocommerce .woocommerce-form-coupon-toggle .woocommerce-info a {
+      color: #434a4d;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 14px; }
+  .woocommerce form.checkout .col2-set .col-1,
+  .woocommerce form.checkout .col2-set .col-2 {
+    width: 48% !important;
+    max-width: 100% !important; }
+    .woocommerce form.checkout .col2-set .col-1 .billing-area,
+    .woocommerce form.checkout .col2-set .col-2 .billing-area {
+      float: left; }
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h3,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h3 {
+        text-align: left;
+        font-size: 25px;
+        width: 100%;
+        font-weight: bold;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h1,
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h2,
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h3,
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h4,
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h5,
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields h6,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h1,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h2,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h3,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h4,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h5,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields h6 {
+        font-weight: bold;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Lato", sans-serif; }
+      .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p,
+      .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p {
+        width: 100%;
+        display: inline-block; }
+        .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label,
+        .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p label {
+          width: auto; }
+        .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span,
+        .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span {
+          width: auto; }
+          .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span input,
+          .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span input {
+            border: 1px solid #eeeeee;
+            font-size: 15px;
+            padding: 1rem;
+            font-family: "Lato", sans-serif;
+            color: #727272; }
+          .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span input.input-text,
+          .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span input.input-text {
+            width: 300px;
+            max-width: 100%; }
+        .woocommerce form.checkout .col2-set .col-1 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span.select2-container,
+        .woocommerce form.checkout .col2-set .col-2 .billing-area .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper p span.select2-container {
+          width: 300px;
+          max-width: 100%; }
+  .woocommerce form.checkout .col2-set .different-address-area {
+    float: right; }
+    .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields h3 label span {
+      text-align: left;
+      font-size: 25px;
+      width: 100%;
+      font-weight: bold;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p {
+      width: 100%;
+      display: inline-block; }
+      .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p label {
+        width: auto; }
+      .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p span {
+        width: auto; }
+        .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p span input {
+          border: 1px solid #eeeeee;
+          font-size: 15px;
+          padding: 1rem;
+          font-family: "Lato", sans-serif;
+          color: #727272; }
+        .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p span input.input-text {
+          width: 300px;
+          max-width: 100%; }
+      .woocommerce form.checkout .col2-set .different-address-area .woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper p span.select2-container {
+        width: 300px;
+        max-width: 100%; }
+
+/*# sourceMappingURL=checkout-custom.css.map */
+
+

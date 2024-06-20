@@ -1,0 +1,528 @@
+{
+    "key": "group_5cba203d7f76d",
+    "title": "Meeting Details",
+    "fields": [
+        {
+            "key": "field_5ccfdc9ff4ae8",
+            "label": "Group ID",
+            "name": "group_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "WSO assigned ID in the Group Database (Ex. TN003)",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfde6bf4aec",
+            "label": "Meeting Type",
+            "name": "type",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "Select In-Person, Phone\/Web, or both for Hybrid meetings.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "in_person": "In Person",
+                "phone_web": "Phone \/ Web"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_6373ca1b02fc9",
+            "label": "List Type",
+            "name": "list_type",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "In-Person meetings, Geographic only. Phone\/Web without a location, Worldwide only. Hybrid & Web\/Phone with a location:  select Geographic only (only want to be published under city\/state) or select both Geographic & Worldwide (want to be published under city\/state & worldwide).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "worldwide": "worldwide",
+                "geographic": "geographic"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_5ccfdcbdf4ae9",
+            "label": "Day",
+            "name": "day",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Can only pick 1 day. Meetings that gather multiple times a week require a meeting entry per day.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Monday": "Monday",
+                "Tuesday": "Tuesday",
+                "Wednesday": "Wednesday",
+                "Thursday": "Thursday",
+                "Friday": "Friday",
+                "Saturday": "Saturday",
+                "Sunday": "Sunday"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_63487c6dd89f6",
+            "label": "Start Time",
+            "name": "start_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "HH:MM am\/pm in meeting time zone.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a"
+        },
+        {
+            "key": "field_63487ccbd89f7",
+            "label": "End Time",
+            "name": "end_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "HH:MM am\/pm in meeting time zone.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a"
+        },
+        {
+            "key": "field_63487d00d89f8",
+            "label": "Timezone",
+            "name": "timezone",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "UTC": "UTC Universal Coordinated Time",
+                "Europe\/Paris": "CET Central European Time",
+                "Africa\/Cairo": "EET Eastern European Time",
+                "Indian\/Mayotte": "EAT Eastern African Time",
+                "Asia\/Karachi": "PLT Pakistan Lahore Time",
+                "Asia\/Calcutta": "IST India Standard Time",
+                "Asia\/Dhaka": "BST Bangladesh Standard Time",
+                "Asia\/Taipei": "CTT China Taiwan Time",
+                "Asia\/Tokyo": "JST Japan Standard Time",
+                "Australia\/South": "ACT Australia Central Time",
+                "Australia\/Tasmania": "AET Australia Eastern Time",
+                "Antarctica\/South_Pole": "NST New Zealand Standard Time",
+                "America\/Atka": "HST Hawaii Standard Time",
+                "America\/Anchorage": "AST Alaska Standard Time",
+                "America\/Los_Angeles": "PST Pacific Standard Time",
+                "America\/Phoenix": "MST Mountain Standard Time",
+                "Mexico\/General": "CST Central Standard Time",
+                "America\/Toronto": "EST Eastern Standard Time",
+                "America\/Buenos_Aires": "AGT Argentina Standard Time",
+                "Brazil\/East": "BET Brazil Eastern Time",
+                "Africa\/Maputo": "CAT Central African Time",
+                "Asia\/Jerusalem": "Israel Standard Time",
+                "Canada\/Atlantic": "AST Atlantic Standard Time",
+                "Europe\/London": "GMT Greenwich Mean Time",
+                "Europe\/Helsinki": "GMT+2 Greenwich Mean Time",
+                "Asia\/Baghdad": "GMT+3 Greenwich Mean Time",
+                "Asia\/Singapore": "GMT+8 Greenwich Mean Time"
+            },
+            "default_value": false,
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ccfdedbf4aed",
+            "label": "Facility",
+            "name": "facility",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Location Name",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ccfde6bf4aec",
+                        "operator": "==",
+                        "value": "in_person"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdef4f4aee",
+            "label": "Address",
+            "name": "address",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Street Address. Only publish meeting location for groups who have provided permission to do so.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdefef4aef",
+            "label": "City",
+            "name": "city",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "If \"In-Person\" is selected, this field is required.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdf08f4af0",
+            "label": "State\/Province",
+            "name": "state",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "If \"In-Person\" is selected, this field is required.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdf19f4af1",
+            "label": "Zip Code\/Postal Code",
+            "name": "zip",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "If \"In-Person\" is selected, this field is required. The mapping and distance feature on the Find a Meeting page will not work without a Zip Code\/Postal Code.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdf29f4af2",
+            "label": "Country",
+            "name": "country",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfddeff4aeb",
+            "label": "Group Email",
+            "name": "email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "Generic group email, no personal email addresses.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5cba20abfc1b1",
+            "label": "Group Phone Number",
+            "name": "phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Generic Group Information line, no personal phone numbers. Format: [phone number],,[extension if applicable]",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ccfdc9ff4ae8",
+                        "operator": "!=",
+                        "value": "usa"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5cba21bed84aa",
+            "label": "Group Website",
+            "name": "website",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Linked websites require Executive Committee approval. Only publish websites already approved.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ccfdc9ff4ae8",
+                        "operator": "!=",
+                        "value": "usa"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6348cca2ea4c0",
+            "label": "Web\/Phone Meeting URL or Dial In",
+            "name": "meeting_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This connects to the \"Join Now\" button on the Find a Meeting Page. Enter the meeting URL or the call-in information in the following format \"tel:[phone number]\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdfcdf4af4",
+            "label": "Additional  Meeting Information",
+            "name": "additional_information",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "For Phone\/Web, include access information and password here too (not URL). Paste meeting information provided by the group that is not already captured elsewhere (copyedit if necessary). Do not publish personal contact information or the names of group members.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ccfdff5f4af5",
+            "label": "Language",
+            "name": "language",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6477f20e4979a",
+            "label": "Special Focus\/Topic",
+            "name": "special_focus",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "If no topic, do not change from default selection. Only meetings that are able to all who qualify for the S-Anon program may be published on www.sanon.org.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "any": "Topics",
+                "women": "Women",
+                "men": "Men",
+                "legal": "Legal Consequence",
+                "parents": "Parents of Sex Addicts",
+                "adult": "Adult Children of Sexaholics",
+                "sexual": "Sexual Avoidance",
+                "lgbt": "LGBTQIA+",
+                "single": "Single in Recovery"
+            },
+            "default_value": "any",
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_63610c082b73e",
+            "label": "Calendar Link",
+            "name": "calendar_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Leave blank. *Is this necessary?*",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "meetings"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1710871207
+}

@@ -1,0 +1,117 @@
+.advice-section {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+
+    .question-row {
+        .question {
+            border-right: 2px solid #727272;
+            text-align: center;
+            display: inline-block;
+
+            .gradient-primary {
+                display: inline-block;
+
+                h1 {
+                    text-align: left;
+                }
+            }
+        }
+
+        .advice {
+            text-align: center;
+            display: inline-block;
+
+            .advice-inner {
+                display: inline-block;
+
+                ul {
+                    li {
+                        text-align: left;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 792px) {
+    .advice-section {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+
+        .question-row {
+            .question {
+                border-right: 2px solid #727272;
+                text-align: center;
+                display: inline-block;
+
+                .gradient-primary {
+                    display: inline-block;
+
+                    h1 {
+                        text-align: left;
+                    }
+                }
+            }
+
+            .advice {
+                text-align: center;
+                display: inline-block;
+
+                .advice-inner {
+                    display: inline-block;
+
+                    ul {
+                        li {
+                            text-align: left;
+                            padding-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .advice-section {
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+
+        .question-row {
+            .question {
+                border-right: none;
+                text-align: left;
+                display: inline-block;
+
+                .gradient-primary {
+                    display: inline-block;
+
+                    h1 {
+                        text-align: left;
+                    }
+                }
+            }
+
+            .advice {
+                display: inline-block;
+                text-align: left;
+                padding-top: 2rem;
+
+                .advice-inner {
+                    display: inline-block;
+
+                    ul {
+                        padding: 0;
+
+                        li {
+                            text-align: left;
+                            padding-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

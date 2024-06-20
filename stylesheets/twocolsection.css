@@ -1,0 +1,40 @@
+.two-col-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  .two-col-section .two-col .first {
+    text-align: center;
+    display: inline-block; }
+    .two-col-section .two-col .first .bold {
+      display: inline-block; }
+      .two-col-section .two-col .first .bold h1 {
+        text-align: left; }
+  .two-col-section .two-col .second {
+    text-align: center;
+    display: inline-block; }
+    .two-col-section .two-col .second .second-inner {
+      display: inline-block; }
+      .two-col-section .two-col .second .second-inner p {
+        text-align: left;
+        color: #434A4D; }
+
+@media only screen and (max-width: 575px) {
+  .two-col-section {
+    padding-top: 4rem;
+    padding-bottom: 0rem; }
+    .two-col-section .two-col .first {
+      text-align: left;
+      display: inline-block; }
+      .two-col-section .two-col .first .bold {
+        display: inline-block; }
+        .two-col-section .two-col .first .bold h1 {
+          text-align: left; }
+    .two-col-section .two-col .second {
+      text-align: left;
+      display: inline-block; }
+      .two-col-section .two-col .second .second-inner {
+        display: inline-block; }
+        .two-col-section .two-col .second .second-inner p {
+          text-align: left;
+          color: #434A4D; } }
+
+/*# sourceMappingURL=twocolsection.css.map */

@@ -1,0 +1,36 @@
+.site-content .content-area .site-main.row {
+  padding-bottom: 4rem; }
+  .site-content .content-area .site-main.row header.page-header {
+    width: 100%;
+    padding: 2rem; }
+    .site-content .content-area .site-main.row header.page-header h1.page-title {
+      text-align: left;
+      font-size: 35px;
+      font-weight: bold;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .site-content .content-area .site-main.row .for-cats .article-inner {
+    border: 1px solid #eeeeee;
+    padding: 2rem;
+    margin-bottom: 2rem; }
+    .site-content .content-area .site-main.row .for-cats .article-inner header.entry-header {
+      padding: 0; }
+      .site-content .content-area .site-main.row .for-cats .article-inner header.entry-header h2.entry-title a {
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 1rem;
+        display: block; }
+    .site-content .content-area .site-main.row .for-cats .article-inner footer.entry-footer span {
+      display: inline-block; }
+
+/*# sourceMappingURL=category.css.map */

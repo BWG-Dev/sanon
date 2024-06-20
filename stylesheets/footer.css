@@ -1,0 +1,240 @@
+footer.site-footer {
+  background-image: linear-gradient(to right, #3f5999, #163071);
+  color: #fff; }
+  footer.site-footer .container-fluid {
+    padding-top: 10rem; }
+    footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section h3 {
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px; }
+    footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section .font-secondary {
+      padding-top: 8px; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section .font-secondary p {
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        padding-bottom: 0;
+        margin-bottom: 11px; }
+    footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section hr {
+      width: 4rem;
+      text-align: left;
+      display: inline-block;
+      height: 0px;
+      border-top: 2px solid rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      margin-bottom: 15px;
+      background: white; }
+    footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul {
+      padding: 0; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul li {
+        padding-bottom: 0; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul li a {
+          font-family: "Lato", sans-serif;
+          font-size: 15px;
+          color: white;
+          font-weight: 500; }
+    footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row {
+      padding-top: 3em; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .larger-section p {
+        font-size: 13px;
+        color: white;
+        font-weight: 500; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.privacy {
+        font-size: 13px;
+        color: white;
+        font-weight: 500;
+        padding-right: 1.5rem; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.privacy:after {
+        content: "|";
+        padding-left: 1.5rem;
+        color: #fff; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.per {
+        font-size: 12px;
+        color: white;
+        font-weight: 500; }
+    footer.site-footer .container-fluid .container .row .font-primary h3 {
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px; }
+    footer.site-footer .container-fluid .container .row .font-primary hr {
+      width: 4rem;
+      text-align: left;
+      display: inline-block;
+      height: 0px;
+      border-top: 2px solid rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      margin-bottom: 15px;
+      background: white; }
+    footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul {
+      padding: 0; }
+      footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li {
+        padding-bottom: .25rem;
+        border-bottom: 1px solid #fff; }
+        footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a h2 {
+          font-size: 14px;
+          margin-top: 10px;
+          color: white;
+          font-weight: 500;
+          font-family: "Lato", sans-serif; }
+        footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a p {
+          font-size: 13px;
+          color: white;
+          font-weight: 500;
+          font-family: "Lato", sans-serif;
+          margin-bottom: 0px; }
+        footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a hr {
+          text-align: left;
+          display: inline-block;
+          height: 0px;
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+          margin-bottom: 15px;
+          background: white;
+          width: 100%; }
+    footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .font-secondary {
+      font-family: "Lato", sans-serif; }
+    footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.privacy {
+      font-size: 13px;
+      color: white;
+      font-weight: 500;
+      padding-right: 1.5rem; }
+    footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.privacy:after {
+      content: "|";
+      padding-left: 1.5rem;
+      color: #fff; }
+    footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.per {
+      font-size: 13px;
+      color: white;
+      font-weight: 500; }
+
+@media only screen and (max-width: 991px) {
+  footer.site-footer {
+    background-image: linear-gradient(to right, #3f5999, #163071);
+    color: #fff; }
+    footer.site-footer .container-fluid {
+      padding-top: 6rem; }
+      footer.site-footer .container-fluid .container .row .first-main-part .second-main-part {
+        padding-top: 2rem; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section h3 {
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          font-size: 19px; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section .font-secondary {
+          padding-top: 8px; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section .font-secondary p {
+            font-family: "Lato", sans-serif;
+            font-size: 15px;
+            color: white;
+            font-weight: 500;
+            padding-bottom: 0.7rem; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section hr {
+          width: 4rem;
+          text-align: left;
+          display: inline-block;
+          height: 0px;
+          border-top: 2px solid rgba(0, 0, 0, 0.1);
+          margin-top: 20px;
+          margin-bottom: 15px;
+          background: white; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul {
+          padding: 0; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul li {
+            padding-bottom: 1rem; }
+            footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .third-section ul li a {
+              font-family: "Lato", sans-serif;
+              font-size: 15px;
+              color: white;
+              font-weight: 500; }
+        footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row {
+          padding-top: 3em; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .larger-section p {
+            font-size: 13px;
+            color: white;
+            font-weight: 500; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.privacy {
+            font-size: 13px;
+            color: white;
+            font-weight: 500;
+            padding-right: 1.5rem; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.privacy:after {
+            content: "|";
+            padding-left: 1.5rem;
+            color: #fff; }
+          footer.site-footer .container-fluid .container .row .first-main-part .second-main-part .row .first-main-part .row .smaller-section .font-secondary p a.per {
+            font-size: 13px;
+            color: white;
+            font-weight: 500; }
+      footer.site-footer .container-fluid .container .row .font-primary h3 {
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        font-size: 19px; }
+      footer.site-footer .container-fluid .container .row .font-primary hr {
+        width: 4rem;
+        text-align: left;
+        display: inline-block;
+        height: 0px;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        margin-bottom: 15px;
+        background: white; }
+      footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul {
+        padding: 0; }
+        footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li {
+          padding-bottom: 0; }
+          footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a h2 {
+            font-size: 16px;
+            margin-top: 10px;
+            color: white;
+            font-weight: 500;
+            font-family: "Lato", sans-serif; }
+          footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a p {
+            font-size: 13px;
+            color: white;
+            font-weight: 500;
+            font-family: "Lato", sans-serif;
+            margin-bottom: 0px; }
+          footer.site-footer .container-fluid .container .row .font-primary .font-secondary ul li a hr {
+            text-align: left;
+            display: inline-block;
+            height: 0px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-bottom: 15px;
+            background: white;
+            width: 100%; }
+      footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .font-secondary {
+        font-family: "Lato", sans-serif; }
+      footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.privacy {
+        font-size: 13px;
+        color: white;
+        font-weight: 500;
+        padding-right: 1.5rem; }
+      footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.privacy:after {
+        content: "|";
+        padding-left: 1.5rem;
+        color: #fff; }
+      footer.site-footer .container-fluid .container .mobile-only .first-main-part .row .smaller-section .font-secondary p a.per {
+        font-size: 13px;
+        color: white;
+        font-weight: 500; } }
+footer.entry-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  footer.entry-footer span a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+    font-weight: bold;
+    line-height: 16px;
+    background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+    background: -o-linear-gradient(right, #3d71a2, #0c2667);
+    background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+    background: linear-gradient(to right, #3d71a2, #0c2667);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  footer.entry-footer span time.updated {
+    display: none; }
+
+/*# sourceMappingURL=footer.css.map */

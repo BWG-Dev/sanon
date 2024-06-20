@@ -1,0 +1,45 @@
+.cta-paragraph {
+  text-align: center !important; }
+  .cta-paragraph .cta-row {
+    text-align: center;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .cta-paragraph .cta-row .title-cta {
+      padding-top: 4rem;
+      padding-bottom: 3rem; }
+      .cta-paragraph .cta-row .title-cta h2 {
+        font-size: 35px;
+        padding-bottom: 0; }
+    .cta-paragraph .cta-row .color-secondary p {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 4rem; }
+    .cta-paragraph .cta-row .button-holder {
+      padding-bottom: 8rem; }
+
+@media only screen and (max-width: 792px) {
+  .cta-paragraph {
+    max-width: 880px !important;
+    margin: 0 auto;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem; }
+    .cta-paragraph .cta-row {
+      background-image: none !important; }
+      .cta-paragraph .cta-row .title-cta {
+        padding-top: 0rem;
+        padding-bottom: 0rem; }
+        .cta-paragraph .cta-row .title-cta h2 {
+          font-size: 35px;
+          padding-top: 2rem;
+          padding-bottom: 2rem; }
+      .cta-paragraph .cta-row .color-secondary {
+        padding-bottom: 1rem; }
+        .cta-paragraph .cta-row .color-secondary p {
+          padding-bottom: 2rem; }
+      .cta-paragraph .cta-row .button-holder {
+        padding-bottom: 0rem; } }
+
+/*# sourceMappingURL=ctaparagraph.css.map */

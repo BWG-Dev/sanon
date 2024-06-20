@@ -1,0 +1,43 @@
+/* table header */
+#meetings-listing .header { list-style: none; display: flex; padding: 0; max-width: 726px; margin: 20px auto 0; }
+#meetings-listing .header li { padding: 11px 30px; min-width: 180px; background: #eee; list-style: none; margin-bottom: 0; text-align: center;  }
+#meetings-listing .header li:not(:last-child) { border-right: 1px solid #ccc; }
+#meetings-listing .header li.active { background-color: #212529; color: #fff; }
+#meetings-listing .header li:not(.active) { cursor: pointer; }
+
+#meetings-listing .toggle-wrapper .section:not(.active) { display: none; }
+#meetings-listing .toggle-wrapper .section h2 { padding-bottom: 16px; }
+#meetings-listing .toggle-wrapper .section .description  { margin-bottom: 20px; }
+#meetings-listing .toggle-wrapper .section .description iframe { border: 0; }
+#meetings-listing .toggle-wrapper .section .state-list { column-count: 6; column-gap: 30px; margin-top: 16px; }
+#meetings-listing .toggle-wrapper .section .state-list .state { cursor: pointer; display: inline-block; margin-bottom: 10px; min-width: 150px; }
+
+#meetings-listing .results-wrapper { margin-top: 30px; padding-top: 30px; border-top: 1px solid #eee; }
+#meetings-listing .results-wrapper .preloader { color: #ccc; }
+
+#meetings-listing .results-wrapper .city-filter { column-count: 4; column-gap: 30px; margin-bottom: 30px; }
+#meetings-listing .results-wrapper .city-filter .city { color: #444; cursor: pointer; display: inline-block; font-weight: normal; margin-bottom: 4px; min-width: 150px; }
+
+#meetings-listing .results-wrapper .meeting { padding-bottom: 30px; padding: 20px; background: #f7f7f7; }
+#meetings-listing .results-wrapper .meeting .fa { margin-right: 7px; }
+#meetings-listing .results-wrapper .meeting:not(:last-child) { margin-bottom: 30px; border-bottom: 1px solid #eee; }
+#meetings-listing .results-wrapper .meeting .title { padding: 0; }
+#meetings-listing .results-wrapper .meeting .label { min-width: 90px; display: inline-block; }
+#meetings-listing .results-wrapper .meeting .additional_information { display: block; margin-top: 10px; }
+
+#meetings-listing .results-wrapper .meeting .meeting-content p:first-child { margin-top: 30px; }
+
+#meetings-listing .mt10 { margin-top: 10px; }
+
+@media(max-width: 991px) {
+	#meetings-listing .toggle-wrapper .section .state-list { column-count: 4; }
+	#meetings-listing .results-wrapper .city-filter { column-count: 3; }
+}
+@media(max-width: 767px) {
+	#meetings-listing .toggle-wrapper .section .state-list { column-count: 2; }
+	#meetings-listing .results-wrapper .meeting .contacts { margin-top: 20px; }
+	#meetings-listing .results-wrapper .city-filter { column-count: 2; }
+}
+@media(max-width: 500px) {
+	#meetings-listing .results-wrapper .city-filter { column-count: 1; }
+}

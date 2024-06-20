@@ -1,0 +1,55 @@
+.literature {
+    .row {
+        padding-bottom: 3rem;
+
+        .col-literature {
+            .hr {
+                width: 4rem;
+                text-align: left;
+                display: inline-block;
+                height: 0px;
+                border-top: 2px solid rgba(0, 0, 0, 0.1);
+            }
+
+            .image-holder {
+                img {}
+            }
+
+            .line {
+                hr {
+                    width: 4rem;
+                    text-align: left;
+                    display: inline-block;
+                    height: 0px;
+                    border-top: 2px solid rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            .gradient-primary {
+                padding-top: 2rem;
+
+                h2 {
+                    font-size: 22px;
+
+                    a.btn-primary {}
+
+                }
+            }
+
+            .hr {
+                width: 4rem;
+                text-align: left;
+                display: inline-block;
+                height: 0px;
+                border-top: 2px solid rgba(0, 0, 0, 0.1);
+            }
+
+            .font-secondary {
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

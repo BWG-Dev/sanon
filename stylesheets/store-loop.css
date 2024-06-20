@@ -1,0 +1,306 @@
+.store-loop {
+  padding-top: 2rem; }
+  .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner {
+    background-color: #efefef;
+    box-shadow: 0 0 77px -10px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    margin: 0rem 2rem 2rem 2rem;
+    border-radius: 17px; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner h2 {
+      font-size: 20px;
+      padding-bottom: 0;
+      margin-bottom: 4px;
+      font-family: "Lato", sans-serif !important;
+      font-weight: bold;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+      font-weight: bold; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .store-line {
+      margin-bottom: -5px; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .store-line hr {
+        background-color: #78c0c4;
+        width: 2.5rem;
+        text-align: left;
+        display: inline-block;
+        height: 0px; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu ul.store-menu-loop {
+      width: 100%;
+      padding: 0; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu ul.store-menu-loop li.healthnews a {
+        font-family: "Lato", sans-serif !important;
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 36px !important;
+        color: #727272;
+        letter-spacing: 0.4px; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu a.read-more-menu {
+      font-family: Lato, sans-serif !important;
+      background: linear-gradient(to right, #3d71a2, #0c2667) text;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      display: block;
+      width: 100%;
+      padding-top: 4px;
+      border-top: 2px solid rgba(0, 0, 0, 0.1);
+      margin-top: 1rem;
+      font-size: 14px !important;
+      font-weight: 500 !important; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu i.fa {
+      background: linear-gradient(to right, #3d71a2, #0c2667) text;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      display: block;
+      width: 100%;
+      font-size: 14px !important;
+      font-weight: 500 !important; }
+  .store-loop .row-store-loop .featured-products-col .loop-title {
+    padding-bottom: 3rem; }
+    .store-loop .row-store-loop .featured-products-col .loop-title h2 {
+      font-size: 30px;
+      padding-bottom: 0;
+      margin-bottom: 4px;
+      font-family: "Lato", sans-serif !important;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-weight: 900; }
+  .store-loop .row-store-loop .featured-products-col .row-for-store .product-col {
+    padding-bottom: 2rem; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col h2.product-name {
+      font-size: 30px;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col h2.product-name a {
+        font-size: 22px !important;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        text-align: left;
+        font-weight: 900 !important;
+        text-transform: capitalize; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col p.product-price {
+      color: #437414;
+      font-size: 20px;
+      padding-bottom: 0;
+      margin-bottom: 4px;
+      font-family: "Lato", sans-serif !important;
+      text-align: left;
+      font-weight: bold;
+      text-transform: capitalize; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col p.product-price-currency {
+      color: #437414;
+      font-size: 20px;
+      padding-bottom: 0;
+      margin-bottom: 4px;
+      font-family: "Lato", sans-serif !important;
+      text-align: left;
+      font-weight: bold;
+      text-transform: capitalize; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col a.add_to_cart_button {
+      font-size: 20px;
+      padding-bottom: 0;
+      margin-bottom: 4px;
+      font-family: "Lato", sans-serif !important;
+      background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+      background: -o-linear-gradient(right, #3d71a2, #0c2667);
+      background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+      background: linear-gradient(to right, #3d71a2, #0c2667);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+      font-weight: bold;
+      text-transform: capitalize;
+      background-image: none;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+      font-weight: 900 !important;
+      font-size: 20px !important; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col i.fa {
+      color: #78c3c7; }
+
+@media only screen and (max-width: 992px) {
+  .store-loop .row-store-loop {
+    padding: 1rem; }
+    .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner {
+      background-color: #efefef;
+      box-shadow: 0 0 77px -10px rgba(0, 0, 0, 0.25);
+      padding: 2rem;
+      margin: 0rem 2rem 2rem 2rem;
+      border-radius: 17px; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner h2 {
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        font-weight: bold;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+        font-weight: bold; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .store-line {
+        margin-bottom: -5px; }
+        .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .store-line hr {
+          background-color: #78c0c4;
+          width: 2.5rem;
+          text-align: left;
+          display: inline-block;
+          height: 0px; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu ul.store-menu-loop {
+        width: 100%;
+        padding: 0; }
+        .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu ul.store-menu-loop li.healthnews a {
+          font-family: "Lato", sans-serif !important;
+          font-weight: bold !important;
+          font-size: 15px !important;
+          line-height: 36px !important;
+          color: #727272;
+          letter-spacing: 0.4px; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu a.read-more-menu {
+        font-family: Lato, sans-serif !important;
+        background: linear-gradient(to right, #3d71a2, #0c2667) text;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding-top: 4px;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-top: 1rem;
+        font-size: 14px !important;
+        font-weight: 500 !important; }
+      .store-loop .row-store-loop .store-loop-menu-section .store-loop-inner .cat-menu-store .menu-cont-store .row-store-menu i.fa {
+        background: linear-gradient(to right, #3d71a2, #0c2667) text;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 14px !important;
+        font-weight: 500 !important; }
+    .store-loop .row-store-loop .featured-products-col .loop-title {
+      padding-bottom: 3rem;
+      padding-top: 4rem; }
+      .store-loop .row-store-loop .featured-products-col .loop-title h2 {
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-weight: 900; }
+    .store-loop .row-store-loop .featured-products-col .row-for-store .product-col {
+      padding-bottom: 2rem; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col h2.product-name {
+        font-size: 30px;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+        .store-loop .row-store-loop .featured-products-col .row-for-store .product-col h2.product-name a {
+          font-size: 22px !important;
+          padding-bottom: 0;
+          margin-bottom: 4px;
+          font-family: "Lato", sans-serif !important;
+          background: -webkit-linear-gradient(left, #435e9a, #0c2667);
+          background: -o-linear-gradient(right, #435e9a, #0c2667);
+          background: -moz-linear-gradient(right, #435e9a, #0c2667);
+          background: linear-gradient(to right, #435e9a, #0c2667);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: left;
+          font-weight: 900 !important;
+          text-transform: capitalize; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col p.product-price {
+        color: #437414;
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        text-align: left;
+        font-weight: bold;
+        text-transform: capitalize; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col p.product-price-currency {
+        color: #437414;
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        text-align: left;
+        font-weight: bold;
+        text-transform: capitalize; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col a.add_to_cart_button {
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 4px;
+        font-family: "Lato", sans-serif !important;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-image: none;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        font-weight: 900 !important;
+        font-size: 20px !important; }
+      .store-loop .row-store-loop .featured-products-col .row-for-store .product-col i.fa {
+        color: #78c3c7; } }
+i.fa {
+  font-family: 'FontAwesome' !important; }
+
+.shown {
+  display: block; }
+
+.hidden {
+  display: none; }
+
+.woocommerce-page img {
+  max-width: 100% !important; }
+
+/*# sourceMappingURL=store-loop.css.map */

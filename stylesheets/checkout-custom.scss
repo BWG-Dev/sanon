@@ -1,0 +1,195 @@
+.woocommerce {
+    font-family: "Lato",
+        sans-serif;
+
+    .woocommerce-info {
+        border-top-color: #0c2667;
+    }
+
+    a {
+        color: #0c2667;
+    }
+
+    .button.button.alt {
+        background-color: #435e9a !important;
+        padding: 0.7rem 1rem 0.7rem 1rem !important;
+    }
+
+    .button.button.alt:hover {
+        background-color: #0c2667 !important;
+        padding: 0.7rem 1rem 0.7rem 1rem !important;
+
+    }
+
+    p {
+        color: #727272;
+    }
+
+    .woocommerce-form-coupon-toggle {
+        .woocommerce-info {
+            padding: 1em 2em 1em 3.5em;
+            margin: 0 0 2em;
+            position: relative;
+            background-color: #f7f6f7;
+            color: #727272;
+            border-top: 3px solid rgba(0, 0, 0, 0.1);
+            list-style: none outside;
+            width: auto;
+            word-wrap: break-word;
+
+            a {
+                color: #434a4d;
+                font-family: 'Montserrat',
+                    sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+
+        }
+    }
+
+    form.checkout {
+        .col2-set {
+
+            .col-1,
+            .col-2 {
+                width: 48% !important;
+                max-width: 100% !important;
+
+                .billing-area {
+                    float: left;
+
+                    .woocommerce-billing-fields {
+                        h3 {
+                            text-align: left;
+                            font-size: 25px;
+                            width: 100%;
+                            font-weight: bold;
+                            background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+                            background: -o-linear-gradient(right, #3d71a2, #0c2667);
+                            background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+                            background: linear-gradient(to right, #3d71a2, #0c2667);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
+                            font-weight: bold;
+                            background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+                            background: -o-linear-gradient(right, #3d71a2, #0c2667);
+                            background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+                            background: linear-gradient(to right, #3d71a2, #0c2667);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-family: "Lato",
+                                sans-serif;
+                        }
+
+
+                        .woocommerce-billing-fields__field-wrapper {
+                            p {
+                                width: 100%;
+                                display: inline-block;
+
+                                label {
+                                    width: auto;
+                                }
+
+                                span {
+                                    width: auto;
+
+                                    input {
+                                        border: 1px solid #eeeeee;
+                                        font-size: 15px;
+                                        padding: 1rem;
+                                        font-family: "Lato",
+                                            sans-serif;
+                                        color: #727272;
+                                    }
+
+                                    input.input-text {
+                                        width: 300px;
+                                        max-width: 100%;
+                                    }
+                                }
+
+                                span.select2-container {
+                                    width: 300px;
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .different-address-area {
+                float: right;
+
+                .woocommerce-shipping-fields {
+                    h3 {
+                        label {
+                            span {
+                                text-align: left;
+                                font-size: 25px;
+                                width: 100%;
+                                font-weight: bold;
+                                background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+                                background: -o-linear-gradient(right, #3d71a2, #0c2667);
+                                background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+                                background: linear-gradient(to right, #3d71a2, #0c2667);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+                        }
+
+                    }
+
+                    .shipping_address {
+                        .woocommerce-shipping-fields__field-wrapper {
+                            p {
+                                width: 100%;
+                                display: inline-block;
+
+                                label {
+                                    width: auto;
+                                }
+
+                                span {
+                                    width: auto;
+
+                                    input {
+                                        border: 1px solid #eeeeee;
+                                        font-size: 15px;
+                                        padding: 1rem;
+                                        font-family: "Lato",
+                                            sans-serif;
+                                        color: #727272;
+                                    }
+
+                                    input.input-text {
+                                        width: 300px;
+                                        max-width: 100%;
+                                    }
+                                }
+
+                                span.select2-container {
+                                    width: 300px;
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}

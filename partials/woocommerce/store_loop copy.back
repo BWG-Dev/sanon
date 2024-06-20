@@ -1,0 +1,81 @@
+<div class="container featured-posts store-loop">
+
+    <?php
+
+    $posts_number = get_sub_field('number_of_posts');
+    $order = get_sub_field('order');
+    $cat_title = get_sub_field('category_title');
+    $title = get_sub_field('loop_title');
+
+?>
+
+    <div class="container featured-posts store-loop">
+
+        <div class="row featured-outer-row-first row-store-loop">
+            <div class="col-12 col-lg-4 store-loop-menu-section">
+                <div class="store-loop-inner">
+                    <h2><?php echo $cat_title; ?>
+                    </h2>
+                    <div class="store-line">
+                        <hr>
+                    </div>
+                    <div class="modules healthnews-cat-menu cat-menu-store">
+                        <div class="container menu-cont menu-cont-store">
+                            <span class="woo_sanon_cat">Select Category</span>
+							<?php echo do_shortcode('[widget id="nav_menu-2"]'); ?>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-12 col-lg-8 featured-first-post-image featured-products-col">
+                <div class="row loop-title">
+                    <?php 
+                           
+            
+                    ?>
+                    <?php  $woocommerce_title = single_term_title(''. '', false); ?>
+                    <?php
+
+
+                    if ($woocommerce_title) : ?>
+                    <h2><?php echo $woocommerce_title; ?>
+                    </h2>
+                    <?php else :
+                        echo '<h2>Popular Books</h2>';
+                        ?>
+                    <?php    endif; ?>
+
+
+
+
+                </div>
+                <div class="row row-for-store">
+
+
+                    <?php
+                                if (woocommerce_product_loop()) {
+                                    if (wc_get_loop_prop('total')) {
+                                        while (have_posts()) {
+                                            the_post();
+
+                                            do_action('woocommerce_shop_loop');
+
+                                            wc_get_template_part('content', 'product');
+                                        }
+                                    }
+
+                                    woocommerce_product_loop_end();
+
+                                    do_action('woocommerce_after_shop_loop');
+                                } else {
+                                    do_action('woocommerce_no_products_found');
+                                }
+
+
+do_action('woocommerce_after_main_content');
+
+?>
+                </div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

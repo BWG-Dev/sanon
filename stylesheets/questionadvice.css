@@ -1,0 +1,65 @@
+.advice-section {
+  padding-top: 0rem;
+  padding-bottom: 3rem; }
+  .advice-section .question-row .question {
+    border-right: 2px solid #727272;
+    text-align: center;
+    display: inline-block; }
+    .advice-section .question-row .question .gradient-primary {
+      display: inline-block; }
+      .advice-section .question-row .question .gradient-primary h1 {
+        text-align: left; }
+  .advice-section .question-row .advice {
+    text-align: center;
+    display: inline-block; }
+    .advice-section .question-row .advice .advice-inner {
+      display: inline-block; }
+      .advice-section .question-row .advice .advice-inner ul li {
+        text-align: left;
+        padding-bottom: 1rem; }
+
+@media only screen and (max-width: 792px) {
+  .advice-section {
+    padding-top: 0rem;
+    padding-bottom: 0rem; }
+    .advice-section .question-row .question {
+      border-right: 2px solid #727272;
+      text-align: center;
+      display: inline-block; }
+      .advice-section .question-row .question .gradient-primary {
+        display: inline-block; }
+        .advice-section .question-row .question .gradient-primary h1 {
+          text-align: left; }
+    .advice-section .question-row .advice {
+      text-align: center;
+      display: inline-block; }
+      .advice-section .question-row .advice .advice-inner {
+        display: inline-block; }
+        .advice-section .question-row .advice .advice-inner ul li {
+          text-align: left;
+          padding-bottom: 1rem; } }
+@media only screen and (max-width: 576px) {
+  .advice-section {
+    padding-top: 0rem;
+    padding-bottom: 1rem; }
+    .advice-section .question-row .question {
+      border-right: none;
+      text-align: left;
+      display: inline-block; }
+      .advice-section .question-row .question .gradient-primary {
+        display: inline-block; }
+        .advice-section .question-row .question .gradient-primary h1 {
+          text-align: left; }
+    .advice-section .question-row .advice {
+      display: inline-block;
+      text-align: left;
+      padding-top: 2rem; }
+      .advice-section .question-row .advice .advice-inner {
+        display: inline-block; }
+        .advice-section .question-row .advice .advice-inner ul {
+          padding: 0; }
+          .advice-section .question-row .advice .advice-inner ul li {
+            text-align: left;
+            padding-bottom: 1rem; } }
+
+/*# sourceMappingURL=questionadvice.css.map */

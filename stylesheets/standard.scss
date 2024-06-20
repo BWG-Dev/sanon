@@ -1,0 +1,50 @@
+.page-content-editor {
+    ul {
+        margin-top: 1rem;
+
+        li {
+            list-style-type: none;
+            font-family: "Lato", sans-serif !important;
+            font-size: 20px;
+            margin-bottom: 1.3rem;
+            font-weight: bold;
+            color: #727272;
+        }
+    }
+
+    li {
+        list-style-type: none;
+        font-family: "Lato", sans-serif !important;
+        font-size: 20px;
+        margin-bottom: 1.3rem;
+        font-weight: bold;
+        color: #727272;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat",
+            sans-serif !important;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    a {
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

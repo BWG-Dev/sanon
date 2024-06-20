@@ -1,0 +1,99 @@
+header.entry-header {
+    width: 100%;
+    padding: 1rem 1rem 4rem 1rem;
+
+    h1.entry-title {
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        font-weight: bold;
+        background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+        background: -o-linear-gradient(right, #3d71a2, #0c2667);
+        background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+        background: linear-gradient(to right, #3d71a2, #0c2667);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    hr {
+        width: 4rem !important;
+        text-align: left !important;
+        display: inline-block !important;
+        height: 0px !important;
+        border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
+    }
+
+    p {
+        font-family: "Lato",
+            sans-serif !important;
+        font-weight: bold !important;
+        font-size: 15px !important;
+        color: #727272 !important;
+        line-height: 26px !important;
+    }
+
+}
+
+.woocommerce ul.products li.product a img {
+
+    max-width: 120px !important;
+}
+
+.woocommerce-page img {
+    max-width: 120px !important;
+}
+
+h2.woocommerce-loop-product__title {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    background: -webkit-linear-gradient(left, #3d71a2, #0c2667) !important;
+    background: -o-linear-gradient(right, #3d71a2, #0c2667) !important;
+    background: -moz-linear-gradient(right, #3d71a2, #0c2667) !important;
+    background: linear-gradient(to right, #3d71a2, #0c2667) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+a.button {
+    color: #fff !important;
+    background-image: linear-gradient(to right, #3d71a2, #0c2667) !important;
+    padding: 0.7rem 1rem 0.7rem 1rem !important;
+    border-radius: 2rem !important;
+    font-family: "Montserrat",
+        sans-serif !important;
+}
+
+.woocommerce ul.products li.product .price {
+    font-family: "Montserrat",
+        sans-serif !important;
+    color: #434a4d !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+
+.woocommerce .site-content {
+    a {
+        font-family: "Lato",
+            sans-serif !important;
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 26px !important;
+
+        p {
+            font-family: "Lato",
+                sans-serif !important;
+            font-weight: bold !important;
+            font-size: 15px !important;
+            color: #727272 !important;
+            line-height: 26px !important;
+        }
+
+        hr {
+            width: 4rem;
+            text-align: left;
+            display: inline-block;
+            height: 0px;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+}

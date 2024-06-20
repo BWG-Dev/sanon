@@ -1,0 +1,100 @@
+.single-prod {
+    .single-product-row {
+        .single-prod-outer {
+            .row-product {
+                .content-area {
+                    .content-area {
+                        main.site-main {
+                            .type-product {
+                                .woocommerce-product-gallery {
+                                    figure.woocommerce-product-gallery__wrapper {
+                                        .woocommerce-product-gallery__image {
+                                            a {
+                                                img {
+                                                    max-width: 300px !important;
+                                                    margin: 0 auto;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .entry-summary {
+                                    h1.entry-title {
+                                        font-size: 32px !important;
+                                        padding-bottom: 2rem;
+                                        margin-bottom: 4px;
+                                        font-family: "Lato",
+                                            sans-serif !important;
+                                        background: -webkit-linear-gradient(left, #435e9a, #0c2667);
+                                        background: -o-linear-gradient(right, #435e9a, #0c2667);
+                                        background: -moz-linear-gradient(right, #435e9a, #0c2667);
+                                        background: linear-gradient(to right, #435e9a, #0c2667);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;
+                                        text-align: left;
+                                        font-weight: 900 !important;
+                                        text-transform: capitalize;
+                                    }
+
+                                    p.stock.in-stock {
+                                        display: none;
+                                    }
+
+                                    .woocommerce-product-details__short-description {
+                                        p {
+                                            color: #727272;
+                                            font-size: 18px;
+                                            font-weight: 400;
+                                        }
+                                    }
+
+                                    form {
+                                        .quantity {
+                                            input {
+                                                padding: 0.3rem 0.4rem 0.3rem 1rem;
+                                            }
+                                        }
+
+                                        .button.button.alt {
+                                            background-color: #435e9a !important;
+                                            padding: 0.7rem 1rem 0.7rem 1rem !important;
+                                        }
+
+                                        .button.button.alt:hover {
+                                            background-color: #0c2667 !important;
+                                            padding: 0.7rem 1rem 0.7rem 1rem !important;
+
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wc-proceed-to-checkout {
+    max-width: 180px;
+
+}
+
+.cross-sells {
+    h2 {
+        padding-bottom: 2rem;
+        font-size: 24px !important;
+        padding-top: 1rem;
+    }
+}
+
+.cart_totals {
+    h2 {
+        padding-bottom: 2rem;
+        font-size: 24px !important;
+        padding-top: 1rem;
+    }
+}

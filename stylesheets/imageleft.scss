@@ -1,0 +1,30 @@
+.image-left {
+    .row {
+        .image-col {
+            .image-col-inner {
+                padding-bottom: 2rem;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .para {
+            padding: 2rem;
+
+            .color-secondary {
+                p {
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+
+            .holder {
+                padding-top: 2.5rem;
+
+                a.btn-primary {}
+            }
+        }
+    }
+}

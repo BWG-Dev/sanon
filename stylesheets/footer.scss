@@ -1,0 +1,460 @@
+footer.site-footer {
+    background-image: linear-gradient(to right, #3f5999, #163071);
+    color: #fff;
+
+    .container-fluid {
+        padding-top: 10rem;
+
+        .container {
+            .row {
+                .first-main-part {
+
+                    .second-main-part {
+
+                        .row {
+
+                            .third-section {
+                                h3 {
+                                    font-weight: bold;
+                                    font-family: "Montserrat",
+                                        sans-serif;
+                                    font-size: 20px;
+                                }
+
+                                .font-secondary {
+                                    padding-top: 8px;
+
+                                    p {
+                                        font-family: "Lato",
+                                            sans-serif;
+                                        font-size: 15px;
+                                        color: white;
+                                        font-weight: 500;
+                                        padding-bottom: 0;
+                                        margin-bottom: 11px;
+                                    }
+                                }
+
+                                hr {
+                                    width: 4rem;
+                                    text-align: left;
+                                    display: inline-block;
+                                    height: 0px;
+                                    border-top: 2px solid rgba(0, 0, 0, 0.1);
+                                    margin-top: 20px;
+                                    margin-bottom: 15px;
+                                    background: white;
+                                }
+
+                                ul {
+                                    padding: 0;
+
+                                    li {
+                                        padding-bottom: 0;
+
+                                        a {
+                                            font-family: "Lato",
+                                                sans-serif;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .first-main-part {
+                                .row {
+                                    padding-top: 3em;
+
+                                    .larger-section {
+                                        p {
+                                            font-size: 13px;
+                                            color: white;
+                                            font-weight: 500;
+                                        }
+                                    }
+
+                                    .smaller-section {
+                                        .font-secondary {
+                                            p {
+                                                a.privacy {
+                                                    font-size: 13px;
+                                                    color: white;
+                                                    font-weight: 500;
+                                                    padding-right: 1.5rem;
+                                                }
+
+                                                a.privacy:after {
+                                                    content: "|";
+                                                    padding-left: 1.5rem;
+                                                    color: #fff;
+
+                                                }
+
+                                                a.per {
+                                                    font-size: 12px;
+                                                    color: white;
+                                                    font-weight: 500;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .font-primary {
+                    h3 {
+                        font-weight: bold;
+                        font-family: "Montserrat",
+                            sans-serif;
+                        font-size: 20px;
+                    }
+
+                    hr {
+                        width: 4rem;
+                        text-align: left;
+                        display: inline-block;
+                        height: 0px;
+                        border-top: 2px solid rgba(0, 0, 0, 0.1);
+                        margin-top: 20px;
+                        margin-bottom: 15px;
+                        background: white;
+                    }
+
+                    .font-secondary {
+                        ul {
+                            padding: 0;
+
+                            li {
+                                padding-bottom: .25rem;
+                                border-bottom: 1px solid #fff;
+
+                                a {
+                                    h2 {
+                                        font-size: 14px;
+                                        margin-top: 10px;
+                                        color: white;
+                                        font-weight: 500;
+                                        font-family: "Lato",
+                                            sans-serif;
+                                    }
+
+                                    p {
+                                        font-size: 13px;
+                                        color: white;
+                                        font-weight: 500;
+                                        font-family: "Lato",
+                                            sans-serif;
+                                        margin-bottom: 0px;
+
+                                    }
+
+                                    hr {
+
+                                        text-align: left;
+                                        display: inline-block;
+                                        height: 0px;
+                                        border-top: 1px solid rgba(0, 0, 0, 0.1);
+                                        margin-top: 20px;
+                                        margin-bottom: 15px;
+                                        background: white;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mobile-only {
+                .first-main-part {
+                    .row {
+                        .font-secondary {
+                            font-family: "Lato",
+                                sans-serif;
+                        }
+
+                        .smaller-section {
+                            .font-secondary {
+                                p {
+                                    a.privacy {
+                                        font-size: 13px;
+                                        color: white;
+                                        font-weight: 500;
+                                        padding-right: 1.5rem;
+                                    }
+
+                                    a.privacy:after {
+                                        content: "|";
+                                        padding-left: 1.5rem;
+                                        color: #fff;
+
+                                    }
+
+                                    a.per {
+                                        font-size: 13px;
+                                        color: white;
+                                        font-weight: 500;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    footer.site-footer {
+        background-image: linear-gradient(to right, #3f5999, #163071);
+        color: #fff;
+
+        .container-fluid {
+            padding-top: 6rem;
+
+            .container {
+                .row {
+                    .first-main-part {
+
+                        .second-main-part {
+                            padding-top: 2rem;
+
+                            .row {
+
+                                .third-section {
+                                    h3 {
+                                        font-weight: bold;
+                                        font-family: "Montserrat",
+                                            sans-serif;
+                                        font-size: 19px;
+                                    }
+
+                                    .font-secondary {
+                                        padding-top: 8px;
+
+                                        p {
+                                            font-family: "Lato",
+                                                sans-serif;
+                                            font-size: 15px;
+                                            color: white;
+                                            font-weight: 500;
+                                            padding-bottom: 0.7rem;
+
+                                        }
+                                    }
+
+                                    hr {
+                                        width: 4rem;
+                                        text-align: left;
+                                        display: inline-block;
+                                        height: 0px;
+                                        border-top: 2px solid rgba(0, 0, 0, 0.1);
+                                        margin-top: 20px;
+                                        margin-bottom: 15px;
+                                        background: white;
+                                    }
+
+                                    ul {
+                                        padding: 0;
+
+                                        li {
+                                            padding-bottom: 1rem;
+
+                                            a {
+                                                font-family: "Lato",
+                                                    sans-serif;
+                                                font-size: 15px;
+                                                color: white;
+                                                font-weight: 500;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .first-main-part {
+                                    .row {
+                                        padding-top: 3em;
+
+                                        .larger-section {
+                                            p {
+                                                font-size: 13px;
+                                                color: white;
+                                                font-weight: 500;
+                                            }
+                                        }
+
+                                        .smaller-section {
+                                            .font-secondary {
+                                                p {
+                                                    a.privacy {
+                                                        font-size: 13px;
+                                                        color: white;
+                                                        font-weight: 500;
+                                                        padding-right: 1.5rem;
+                                                    }
+
+                                                    a.privacy:after {
+                                                        content: "|";
+                                                        padding-left: 1.5rem;
+                                                        color: #fff;
+
+                                                    }
+
+                                                    a.per {
+                                                        font-size: 13px;
+                                                        color: white;
+                                                        font-weight: 500;
+                                                    }
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .font-primary {
+                        h3 {
+                            font-weight: bold;
+                            font-family: "Montserrat",
+                                sans-serif;
+                            font-size: 19px;
+                        }
+
+                        hr {
+                            width: 4rem;
+                            text-align: left;
+                            display: inline-block;
+                            height: 0px;
+                            border-top: 2px solid rgba(0, 0, 0, 0.1);
+                            margin-top: 20px;
+                            margin-bottom: 15px;
+                            background: white;
+                        }
+
+                        .font-secondary {
+                            ul {
+                                padding: 0;
+
+                                li {
+                                    padding-bottom: 0;
+
+                                    a {
+                                        h2 {
+                                            font-size: 16px;
+                                            margin-top: 10px;
+                                            color: white;
+                                            font-weight: 500;
+                                            font-family: "Lato",
+                                                sans-serif;
+                                        }
+
+                                        p {
+                                            font-size: 13px;
+                                            color: white;
+                                            font-weight: 500;
+                                            font-family: "Lato",
+                                                sans-serif;
+                                            margin-bottom: 0px;
+
+                                        }
+
+                                        hr {
+
+                                            text-align: left;
+                                            display: inline-block;
+                                            height: 0px;
+                                            border-top: 1px solid rgba(0, 0, 0, 0.1);
+                                            margin-top: 20px;
+                                            margin-bottom: 15px;
+                                            background: white;
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mobile-only {
+                    .first-main-part {
+                        .row {
+                            .font-secondary {
+                                font-family: "Lato",
+                                    sans-serif;
+                            }
+
+                            .smaller-section {
+                                .font-secondary {
+                                    p {
+                                        a.privacy {
+                                            font-size: 13px;
+                                            color: white;
+                                            font-weight: 500;
+                                            padding-right: 1.5rem;
+                                        }
+
+                                        a.privacy:after {
+                                            content: "|";
+                                            padding-left: 1.5rem;
+                                            color: #fff;
+
+                                        }
+
+                                        a.per {
+                                            font-size: 13px;
+                                            color: white;
+                                            font-weight: 500;
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+footer.entry-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    span {
+        a {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-family: "Montserrat",
+                sans-serif;
+            padding: 1rem;
+            font-weight: bold;
+            line-height: 16px;
+            background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+            background: -o-linear-gradient(right, #3d71a2, #0c2667);
+            background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+            background: linear-gradient(to right, #3d71a2, #0c2667);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        time.updated {
+            display: none;
+        }
+    }
+}

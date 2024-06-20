@@ -1,0 +1,13 @@
+.image-left .row .image-col .image-col-inner {
+  padding-bottom: 2rem; }
+  .image-left .row .image-col .image-col-inner img {
+    max-width: 100%; }
+.image-left .row .para {
+  padding: 2rem; }
+  .image-left .row .para .color-secondary p {
+    font-size: 22px;
+    font-weight: 400; }
+  .image-left .row .para .holder {
+    padding-top: 2.5rem; }
+
+/*# sourceMappingURL=imageleft.css.map */

@@ -1,0 +1,11 @@
+form.woocommerce-form.woocommerce-form-login.login {
+  max-width: 800px;
+  margin: 0 auto;
+}
+header.home .site-branding-container .container .menu-row .button-section a.btn-primary {
+font-size: 14px;
+text-transform: initial;
+}
+header.home .site-branding-container .container .menu-row .button-section a.btn-primary strong {
+text-transform: initial;
+}

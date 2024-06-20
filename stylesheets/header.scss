@@ -1,0 +1,252 @@
+header.page {
+
+
+    .site-branding-container {
+        .container {
+            .menu-row {
+                padding-top: 1rem;
+
+                .col-2.col-lg-2 {
+                    a {
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+
+                .col-8.col-lg-8 {
+                    padding: 1.4rem;
+
+                    nav.main-navigation {
+                        .menu-primary-menu-container {
+                            ul.main-menu {
+                                float: right;
+
+                                li.menu-item {
+                                    display: inline;
+                                    padding: 1.3rem;
+
+                                    a {
+                                        color: #434a4d;
+                                        font-family: 'Montserrat', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .main-menu-more {
+                            display: none;
+                        }
+                    }
+                }
+
+                .button-section {
+                    margin-top: 2rem;
+
+                    a.btn-primary {
+                        color: #fff;
+                        background: #2a548b;
+                        padding: 1rem 0.8rem 1rem 0.8rem;
+                        border-radius: 2rem;
+                        text-transform: uppercase;
+
+                        strong {
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+
+            .cta-row {
+                .cta-outer {
+                    padding-top: 6rem;
+
+                    h1 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        font-size: 45px;
+                        letter-spacing: -2px;
+                        padding-bottom: 2rem;
+                    }
+
+                    h2 {
+                        font-family: 'Lato', sans-serif;
+                        font-weight: bold;
+                        font-size: 22px;
+                        padding-bottom: 3rem;
+                    }
+
+                    .button-row {
+                        .first-button-outer {
+                            a.btn-primary {
+                                color: #fff;
+                                background-image: linear-gradient(to right, #3d71a2, #0c2667);
+                                padding: 1rem 0.8rem 1rem 0.8rem;
+                                border-radius: 2rem;
+                                text-transform: uppercase;
+
+                                strong {
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+
+                        .second-button-outer {
+                            a.btn-secondary {
+                                font-family: 'Montserrat',
+                                    sans-serif;
+                                text-transform: uppercase;
+
+                                strong {
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                    text-transform: uppercase;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .inner-title {
+            padding-bottom: 1rem;
+            padding-top: 0;
+
+            .page-title {
+                h1 {
+                    background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+                    background: -o-linear-gradient(right, #3d71a2, #0c2667);
+                    background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+                    background: linear-gradient(to right, #3d71a2, #0c2667);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-weight: bold;
+                    font-size: 45px;
+                    letter-spacing: -2px;
+                    padding-bottom: 2rem;
+                    font-family: "Montserrat",
+                        sans-serif !important;
+                    padding-top: 3rem;
+                }
+            }
+        }
+    }
+}
+
+.mobile-menu-holder {
+    max-width: 250px;
+    float: right;
+    display: none;
+
+    .for-mobile {
+        .card {
+            .menu-primary-menu-container {
+                ul {
+                    padding: 0;
+
+                    li {
+                        a {
+                            list-style-type: none;
+                            font-family: "Lato",
+                                sans-serif !important;
+                            font-size: 22px;
+                            font-weight: bold;
+                            color: #727272;
+                        }
+                    }
+                }
+            }
+
+            .main-menu-more {
+                display: none;
+            }
+        }
+    }
+}
+
+.mobile-menu-holder {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    header.home .site-branding-container .container .menu-row .button-section {
+        margin-top: 1rem !important;
+        position: absolute;
+        right: 20px;
+    }
+
+    header.home .site-branding-container .container .menu-row .button-section a.btn-primary {
+
+        position: absolute;
+        right: 90px;
+    }
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu li.menu-item {
+        display: inline-block;
+        padding: 0.3rem;
+        margin-top: 2rem;
+    }
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu {
+        float: left;
+        padding-left: 0;
+        margin-left: -5rem;
+    }
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu li.menu-item {
+        display: inline;
+        padding: 0.3rem;
+    }
+
+
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu li.menu-item {
+        display: inline;
+        padding: 1rem;
+    }
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu li.menu-item {
+        display: inline;
+        padding: 0.5rem;
+    }
+
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 nav.main-navigation .menu-primary-menu-container ul.main-menu li.menu-item {
+        display: inline;
+        padding: 0.6rem !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header.home .site-branding-container .container .menu-row .col-8.col-lg-8 {
+        padding: 0.4rem !important;
+        margin-left: -10rem;
+        margin-top: 1rem !important;
+    }
+}
+
+h1.inner-header {
+    font-family: "Montserrat",
+        sans-serif !important;
+    font-weight: bold;
+    font-size: 30px !important;
+    letter-spacing: -2px;
+    padding-bottom: 2rem;
+    background: -webkit-linear-gradient(left, #3d71a2, #0c2667);
+    background: -o-linear-gradient(right, #3d71a2, #0c2667);
+    background: -moz-linear-gradient(right, #3d71a2, #0c2667);
+    background: linear-gradient(to right, #3d71a2, #0c2667);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header.home .site-branding-container .container .cta-row .outer-for-default {
+    padding-top: 3rem !important;
+}

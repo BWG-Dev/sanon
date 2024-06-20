@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1016px) {
+    header.home {
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 6rem !important;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+
+    header.home .site-branding-container .container .cta-row .cta-outer .button-row .first-button-outer a.btn-primary {
+
+        position: absolute;
+    }
+
+    header.home .site-branding-container .container .cta-row .cta-outer .button-row .second-button-outer a.btn-secondary {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    header.home .site-branding-container .container .cta-row .cta-outer .button-row .first-button-outer a.btn-primary {
+
+        font-size: 10px !important;
+    }
+
+    header.home .site-branding-container .container .cta-row .cta-outer .button-row .second-button-outer a.btn-secondary {
+        font-size: 10px !important;
+    }
+}

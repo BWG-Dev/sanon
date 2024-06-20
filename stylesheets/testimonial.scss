@@ -1,0 +1,81 @@
+.testimonial {
+    padding-bottom: 3rem;
+
+    .row-testimonial {
+        .col-testimonial {
+            .inner {
+                .info {
+                    .bold {
+                        p {
+                            font-size: 20px;
+                            padding-bottom: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .color-primary {
+                        h3 {
+
+                            font-weight: bold;
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                hr {
+                    width: 4rem;
+                    text-align: left;
+                    display: inline-block;
+                    height: 0px;
+                    border-top: 2px solid rgba(0, 0, 0, .1);
+                }
+
+                p {
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .col-testimonial {
+        padding-bottom: 3rem;
+
+        .row-testimonial {
+            .col-testimonial {
+                .inner {
+                    .info {
+                        .bold {
+                            p {
+                                font-size: 20px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        .color-primary {
+                            h3 {
+
+                                font-weight: bold;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+
+                    hr {
+                        width: 4rem;
+                        text-align: left;
+                        display: inline-block;
+                        height: 0px;
+                        border-top: 2px solid rgba(0, 0, 0, .1);
+                    }
+
+                    p {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
