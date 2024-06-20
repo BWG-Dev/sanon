@@ -472,9 +472,9 @@ class SanonMeetingAreas
 
             <div class="meeting_action_wrapper meet-col">
                 <div class="action-right">
-                    <button class="" id="get_meeting_btn">Apply</button>
+                    <button class="" id="get_meeting_btn">APPLY</button>
                     <button class="print-btn" onclick="window.print()"><i class="fa fa-print"></i></button>
-                    <button class="reset_btn" id="reset_filter_btn">Reset</button>
+                    <button class="reset_btn" id="reset_filter_btn">RESET</button>
                 </div>
 
 
